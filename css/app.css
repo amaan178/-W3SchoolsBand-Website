@@ -200,3 +200,32 @@ a{
     background: red;
     cursor: pointer;
 }
+/**********************************************************************************************
+**********************************SLIDER CLASSES **********************************************
+**********************************************************************************************/
+
+.slider{
+    width: 100%;
+}
+.slider-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.slider-item{
+    position: relative;
+}
+.slider .slider-image{
+    width: 100%;
+}
+
+.slider-item .image-caption {
+    position: absolute;
+    bottom: 50px;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+}
+.image-caption .caption-title{
+    font-size: 30px;
+}
