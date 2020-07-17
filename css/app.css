@@ -419,3 +419,42 @@ a{
 .contact-details i{
     font-size: 18px;
 }
+/***********************************************************************
+************************* Map section ***********************************
+***********************************************************************/
+.grayscale{
+    filter: grayscale(50%);
+}
+/***********************************************************************
+************************* Footer section ***********************************
+**********************************************************************/
+footer.section-white{
+    color: #777;
+}
+
+.social-icons{
+    font-size: 24px;
+}
+.social-icons:hover{
+    color: #999;        
+}
+@media(max-width :550px){
+    .container{
+        width: 90%;
+    }
+}
+@media(min-width: 551px) and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+}
+@media(max-width:550px){
+    .row .col-6{ width: 100%;}
+    .row .col-4{ width: 100%;}
+    .row .col-3{ width: 100%;}
+}
+@media(max-width: 550px){
+    .right-section{
+        display: none;
+    }
+}
