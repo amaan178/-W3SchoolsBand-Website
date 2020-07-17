@@ -229,3 +229,92 @@ a{
 .image-caption .caption-title{
     font-size: 30px;
 }
+/**********************************************************************************************
+**********************************SECTION CLASSES **********************************************
+**********************************************************************************************/
+
+.section{
+    padding: 85px 0;
+}
+
+
+.section-white{
+    background: #FFF;
+    color: #333;
+}
+.section-black{
+    background: #000;
+    color:#FFF;
+}
+.section .section-heading p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+    margin: 0;
+}
+.section .section-heading h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: 4px;
+    margin: 0 0 18px;
+}
+
+.section-white .section-heading p{
+    color: dimgray;
+}
+.section-black .section-heading p{
+    color: #AAA;
+}
+
+/**********************************************************************************************
+**********************************BUTTON CLASSES **********************************************
+**********************************************************************************************/
+
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: none;
+    border: solid 1px #333;
+}
+.btn-default{
+    background: #000;
+    border-color: #000;
+    color: #FFF;
+}
+.btn-default:hover{
+    background: #CCC;
+    color: #333;
+    cursor: pointer;/*button tag ke lie*/
+    border-color:#CCC;
+}
+
+.btn-blue{
+    background: #0077B6;
+    border-color: #0077B6;
+    color: #FFF;
+}
+
+.btn-blue:hover{
+    background: #FFF;
+    color: #0077B6;
+}
+.btn-default-outline{
+    background: #FFF;
+    color:#333;
+    border: solid 1px #333;
+}
+.btn-blue-outline{
+    background: #FFF;
+    color: #0077B6;
+    border: solid 1px #0077B6 ;
+}
+.btn-blue-outline:hover{
+    background: #0077B6;
+    color:#FFF;
+}
+.btn-rounded{
+    border-radius: 5px;
+}
